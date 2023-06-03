@@ -188,7 +188,22 @@ if True:
         print(myQueue.delete())
 
 print("----------------")
+# Heap
+if True:
+    # always give the smallest element
+    import heapq
+    li = [5, 3, 7, 9, 1]
+    heapq.heapify(li)
+    print(list(li))
 
+    # push elements into heap
+    heapq.heappush(li, 4)
+    print(list(li))
+
+    # pop smallest element
+    print(heapq.heappop(li))
+
+print("----------------")
 # Binary Tree
 if True:
     # each elements can have at most two children
@@ -231,3 +246,5 @@ print("----------------")
 if True:
     # consist of nodes(vertices) and edges
     print()
+
+
