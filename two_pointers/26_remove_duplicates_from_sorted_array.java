@@ -1,4 +1,4 @@
-package twopointers;
+package two_pointers;
 
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
