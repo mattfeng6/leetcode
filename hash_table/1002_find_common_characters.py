@@ -8,13 +8,13 @@ class Solution:
     def commonChars(self, words: List[str]) -> List[str]:
 
         temp = collections.Counter(words[0])
-        l = []
+        res = []
         for i in range(1, len(words)):
             temp = temp & collections.Counter(words[i])
 
         for j in temp:
             v = temp[j]
             while v:
-                l.append(j)
+                res.append(j)
                 v -= 1
-        return l  
+        return res  
