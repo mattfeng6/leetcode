@@ -1,4 +1,4 @@
-package hashtable;
+package hash_table;
 
 // https://leetcode.com/problems/contains-duplicate-ii/solutions/61372/simple-java-solution/
 

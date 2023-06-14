@@ -1,4 +1,4 @@
-package hashtable;
+package hash_table;
 
 // https://leetcode.com/problems/clone-graph/solutions/3392175/easy-solutions-in-java-python-and-c-look-at-once-with-exaplanation/
 
