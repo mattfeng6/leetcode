@@ -1,3 +1,5 @@
+-- https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/?envType=study-plan-v2&envId=top-sql-50
+
 SELECT customer_id, COUNT(Visits.visit_id) AS count_no_trans
 FROM Visits
 LEFT JOIN Transactions ON Visits.visit_id = Transactions.visit_id
