@@ -18,3 +18,10 @@ class Solution:
             s2t[s[i]] = t[i]
             t2s[t[i]] = s[i]
         return True
+    
+    # https://leetcode.com/problems/isomorphic-strings/solutions/1337259/2-liner-with-99-efficiency-and-explanation/
+
+    # zip function
+
+    # zipped_set = set(zip(s, t))
+    # return len(zipped_set) == len(set(s))
