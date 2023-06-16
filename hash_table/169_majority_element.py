@@ -8,10 +8,7 @@ class Solution:
         record = dict()
 
         for value in nums:
-            if value in record:
-                record[value] += 1
-            else:
-                record[value] = 1
+            record[value] = record.get(value, 0) + 1
         
         return max(record, key=record.get)
 
