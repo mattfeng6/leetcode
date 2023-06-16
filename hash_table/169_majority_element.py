@@ -24,5 +24,8 @@ class Solution:
         #         solution = i
         #     count += (1 if i == solution else -1)
         # return solution
-    
 
+        # Sorting
+
+        # nums = sorted(nums)
+        # return nums[len(nums) // 2]
