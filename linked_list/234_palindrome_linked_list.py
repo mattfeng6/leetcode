@@ -12,7 +12,7 @@ class Solution:
         #     head = head.next
         # return l == l[::-1]
 
-        # two pointers
+        # Two Pointers
 
         fast, slow  = head,head    
         while fast and fast.next:
