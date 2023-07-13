@@ -9,8 +9,9 @@ class Solution:
         def countOnes(num):
             count = 0
             while num:
-                num = num & num-1
-                count += 1
+                count += num & 1
+                num >>= 1
+            
             return count
         
         temp = []
